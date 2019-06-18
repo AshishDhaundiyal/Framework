@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up the configuration]]>
+    </line>
+    <line>
+      <![CDATA[Configuration completed , Test is starting]]>
+    </line>
+    <line>
+      <![CDATA[Trying to Start Browser and starting Application]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to complete]]>
+    </line>
+    <line>
+      <![CDATA[Test completed ........... Reports are generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20500" started-at="2019-06-18T05:56:50Z" finished-at="2019-06-18T05:57:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20500" started-at="2019-06-18T05:56:50Z" finished-at="2019-06-18T05:57:10Z">
+      <class name="com.automation.testcases.LoginTest">
+        <test-method status="PASS" signature="setupsuit()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="setupsuit" is-config="true" duration-ms="184" started-at="2019-06-18T11:26:50Z" finished-at="2019-06-18T11:26:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up the configuration]]>
+            </line>
+            <line>
+              <![CDATA[Configuration completed , Test is starting]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuit -->
+        <test-method status="PASS" signature="beforeClassSetup()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="beforeClassSetup" is-config="true" duration-ms="8811" started-at="2019-06-18T11:26:50Z" finished-at="2019-06-18T11:26:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to Start Browser and starting Application]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetup -->
+        <test-method status="PASS" signature="LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="LoginToEDGEPortal" duration-ms="9966" started-at="2019-06-18T11:26:59Z" finished-at="2019-06-18T11:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToEDGEPortal -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="982" started-at="2019-06-18T11:27:09Z" finished-at="2019-06-18T11:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToEDGEPortal status=SUCCESS method=LoginTest.LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to complete]]>
+            </line>
+            <line>
+              <![CDATA[Test completed ........... Reports are generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="closeBrowser" is-config="true" duration-ms="712" started-at="2019-06-18T11:27:10Z" finished-at="2019-06-18T11:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
