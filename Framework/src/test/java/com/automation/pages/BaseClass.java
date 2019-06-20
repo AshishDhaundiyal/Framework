@@ -31,7 +31,7 @@ public class BaseClass {
 	public void setupsuit()
 	{
 		Reporter.log("Setting up the configuration", true);
-		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/testreport "+ Helper.getCurrentDateTime() +".html"));
+		ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/testreport_"+ Helper.getCurrentDateTime() +".html"));
 		report = new ExtentReports();
 		report.attachReporter(extent);
 		Reporter.log("Configuration completed , Test is starting", true);
