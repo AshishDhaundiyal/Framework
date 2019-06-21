@@ -28,17 +28,19 @@ public class LoginPage {
 	
 	
 	
-	public void LoginToEDGE(String username, String password, String vCode) throws Exception {
+	//public void LoginToEDGE(String username, String password, double vCode) throws Exception {
+	public void LoginToEDGE(String username, String password) throws Exception {
 		
 		usernameTextBox.sendKeys(username);
 		passwordTextBox.sendKeys(password);
 		loginButton.click();
 		
+		
 		Thread.sleep(5000);
 
 		if (verificationCodeLabel.isDisplayed()) {
 			System.out.println("Login button is clicked");
-			Inputverificationcode.sendKeys(vCode);
+			Inputverificationcode.sendKeys("12345678");
 			InputVerifyButton.click();
 			
 		}
