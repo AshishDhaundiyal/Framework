@@ -20,12 +20,12 @@
       <![CDATA[Test completed ........... Reports are generated]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="27327" started-at="2019-06-20T08:56:39Z" finished-at="2019-06-20T08:57:07Z">
+  <suite name="Suite" duration-ms="46539" started-at="2019-06-21T10:36:47Z" finished-at="2019-06-21T10:37:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27327" started-at="2019-06-20T08:56:39Z" finished-at="2019-06-20T08:57:07Z">
+    <test name="Test" duration-ms="46539" started-at="2019-06-21T10:36:47Z" finished-at="2019-06-21T10:37:34Z">
       <class name="com.automation.testcases.LoginTest">
-        <test-method status="PASS" signature="setupsuit()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="setupsuit" is-config="true" duration-ms="1558" started-at="2019-06-20T14:26:38Z" finished-at="2019-06-20T14:26:39Z">
+        <test-method status="PASS" signature="setupsuit()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="setupsuit" is-config="true" duration-ms="171" started-at="2019-06-21T16:06:47Z" finished-at="2019-06-21T16:06:47Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up the configuration]]>
@@ -35,7 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupsuit -->
-        <test-method status="PASS" signature="beforeClassSetup()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="beforeClassSetup" is-config="true" duration-ms="12294" started-at="2019-06-20T14:26:39Z" finished-at="2019-06-20T14:26:52Z">
+        <test-method status="PASS" signature="beforeClassSetup()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="beforeClassSetup" is-config="true" duration-ms="8776" started-at="2019-06-21T16:06:47Z" finished-at="2019-06-21T16:06:56Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to Start Browser and starting Application]]>
@@ -45,11 +45,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClassSetup -->
-        <test-method status="PASS" signature="LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="LoginToEDGEPortal" duration-ms="12707" started-at="2019-06-20T14:26:52Z" finished-at="2019-06-20T14:27:04Z">
+        <test-method status="PASS" signature="LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="LoginToEDGEPortal" duration-ms="12504" started-at="2019-06-21T16:06:56Z" finished-at="2019-06-21T16:07:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToEDGEPortal -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="1482" started-at="2019-06-20T14:27:04Z" finished-at="2019-06-20T14:27:06Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="24461" started-at="2019-06-21T16:07:09Z" finished-at="2019-06-21T16:07:33Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="closeBrowser" is-config="true" duration-ms="810" started-at="2019-06-20T14:27:06Z" finished-at="2019-06-20T14:27:07Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="closeBrowser" is-config="true" duration-ms="783" started-at="2019-06-21T16:07:33Z" finished-at="2019-06-21T16:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
