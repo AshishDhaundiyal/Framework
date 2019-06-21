@@ -21,9 +21,10 @@ public class LoginTest extends BaseClass {
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 		logger.info("Login to EDGE");
 		
-		loginPage.LoginToEDGE(excel.getStringData("Login", 1, 0), excel.getStringData("Login", 1, 1));
+		loginPage.LoginToEDGE(excel.getStringData("Login", 1, 0), excel.getStringData("Login", 1, 1), excel.getStringData("Login", 1, 2));
 		logger.pass("Login Successfully");
 	}
 
 
 }
+	

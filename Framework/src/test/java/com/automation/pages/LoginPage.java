@@ -8,10 +8,10 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage {
 
 	WebDriver driver;
-	@FindBy(xpath="//div/span/input[@type='text']")
+	@FindBy(xpath="//input[contains(@id,'usernameInput')]")
 	WebElement usernameTextBox;
 	
-	@FindBy(xpath="//input[@type='password']")
+	@FindBy(xpath="//input[contains(@id,'passwordInput')]")
 	WebElement passwordTextBox;
 	
 	@FindBy(xpath="//div[text()='LOGIN']")
@@ -20,8 +20,15 @@ public class LoginPage {
 	@FindBy(xpath="//label[text()= 'Verification Code']")
 	WebElement verificationCodeLabel;
 	
+	@FindBy(xpath="//label[text()='Verification Code']/following-sibling::input")
+	WebElement Inputverificationcode;
 	
-	public void LoginToEDGE(String username, String password) throws Exception {
+	@FindBy(xpath="//input[@value='Verify']")
+	WebElement InputVerifyButton;
+	
+	
+	
+	public void LoginToEDGE(String username, String password, String vCode) throws Exception {
 		
 		usernameTextBox.sendKeys(username);
 		passwordTextBox.sendKeys(password);
@@ -31,6 +38,9 @@ public class LoginPage {
 
 		if (verificationCodeLabel.isDisplayed()) {
 			System.out.println("Login button is clicked");
+			Inputverificationcode.sendKeys(vCode);
+			InputVerifyButton.click();
+			
 		}
 	}
 	
