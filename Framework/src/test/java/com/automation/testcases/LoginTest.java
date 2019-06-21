@@ -23,7 +23,7 @@ public class LoginTest extends BaseClass {
 		
 //		loginPage.LoginToEDGE(excel.getStringData("Login", 2, 0), excel.getStringData("Login", 2, 1), excel.getNumericData("Login", 2,2));
 		loginPage.LoginToEDGE(excel.getStringData("Login", 2, 0), excel.getStringData("Login", 2, 1));
-		logger.pass("Login Successfully");
+		logger.pass("Login Successfully"); 
 	}
 
 
