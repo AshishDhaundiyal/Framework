@@ -26,7 +26,7 @@ public class Browserfactory {
 		}
 
 		else {
-			System.out.println("No a valid Browser");
+			System.out.println("Not a valid Browser");
 		}
 
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

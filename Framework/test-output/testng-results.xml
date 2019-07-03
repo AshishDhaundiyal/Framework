@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Setting up the configuration]]>
-    </line>
-    <line>
-      <![CDATA[Configuration completed , Test is starting]]>
-    </line>
     <line>
       <![CDATA[Trying to Start Browser and starting Application]]>
     </line>
@@ -16,26 +10,13 @@
     <line>
       <![CDATA[Test is about to complete]]>
     </line>
-    <line>
-      <![CDATA[Test completed ........... Reports are generated]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="46539" started-at="2019-06-21T10:36:47Z" finished-at="2019-06-21T10:37:34Z">
+  <suite name="Suite" duration-ms="9414" started-at="2019-06-25T10:57:11Z" finished-at="2019-06-25T10:57:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="46539" started-at="2019-06-21T10:36:47Z" finished-at="2019-06-21T10:37:34Z">
+    <test name="Test" duration-ms="9414" started-at="2019-06-25T10:57:11Z" finished-at="2019-06-25T10:57:20Z">
       <class name="com.automation.testcases.LoginTest">
-        <test-method status="PASS" signature="setupsuit()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="setupsuit" is-config="true" duration-ms="171" started-at="2019-06-21T16:06:47Z" finished-at="2019-06-21T16:06:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Setting up the configuration]]>
-            </line>
-            <line>
-              <![CDATA[Configuration completed , Test is starting]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setupsuit -->
-        <test-method status="PASS" signature="beforeClassSetup()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="beforeClassSetup" is-config="true" duration-ms="8776" started-at="2019-06-21T16:06:47Z" finished-at="2019-06-21T16:06:56Z">
+        <test-method status="PASS" signature="beforeClassSetup()[pri:0, instance:com.automation.testcases.LoginTest@1794d431]" name="beforeClassSetup" is-config="true" duration-ms="8516" started-at="2019-06-25T10:57:11Z" finished-at="2019-06-25T10:57:19Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to Start Browser and starting Application]]>
@@ -45,28 +26,92 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClassSetup -->
-        <test-method status="PASS" signature="LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="LoginToEDGEPortal" duration-ms="12504" started-at="2019-06-21T16:06:56Z" finished-at="2019-06-21T16:07:09Z">
+        <test-method status="FAIL" signature="LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1794d431]" name="LoginToEDGEPortal" duration-ms="7" started-at="2019-06-25T10:57:19Z" finished-at="2019-06-25T10:57:19Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.automation.testcases.LoginTest.LoginToEDGEPortal(LoginTest.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToEDGEPortal -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="24461" started-at="2019-06-21T16:07:09Z" finished-at="2019-06-21T16:07:33Z">
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@1794d431]" name="afterMethod" is-config="true" duration-ms="867" started-at="2019-06-25T10:57:19Z" finished-at="2019-06-25T10:57:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginToEDGEPortal status=SUCCESS method=LoginTest.LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39] output={null}]]]>
+                <![CDATA[[TestResult name=LoginToEDGEPortal status=FAILURE method=LoginTest.LoginToEDGEPortal()[pri:0, instance:com.automation.testcases.LoginTest@1794d431] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.automation.pages.BaseClass.afterMethod(BaseClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[Test is about to complete]]>
             </line>
-            <line>
-              <![CDATA[Test completed ........... Reports are generated]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.testcases.LoginTest@1d057a39]" name="closeBrowser" is-config="true" duration-ms="783" started-at="2019-06-21T16:07:33Z" finished-at="2019-06-21T16:07:34Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.automation.testcases.LoginTest@1794d431]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-06-25T10:57:20Z" finished-at="2019-06-25T10:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

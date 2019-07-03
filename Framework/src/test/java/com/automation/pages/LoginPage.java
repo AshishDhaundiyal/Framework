@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage {
+
+
+public class LoginPage  {
 
 	WebDriver driver;
 	@FindBy(xpath="//input[contains(@id,'usernameInput')]")
@@ -27,7 +29,7 @@ public class LoginPage {
 	WebElement InputVerifyButton;
 	
 	
-	
+		
 	//public void LoginToEDGE(String username, String password, double vCode) throws Exception {
 	public void LoginToEDGE(String username, String password) throws Exception {
 		
@@ -36,7 +38,7 @@ public class LoginPage {
 		loginButton.click();
 		
 		
-		Thread.sleep(5000);
+		Thread.sleep(5000);			
 
 		if (verificationCodeLabel.isDisplayed()) {
 			System.out.println("Login button is clicked");
